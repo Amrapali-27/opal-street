@@ -179,15 +179,15 @@ button {
 /* HERO SECTION */
 .hero {
   position: relative;
-  height: 90vh;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: url("../Assets/images/02..png") center/cover no-repeat;
 }
 
 /* HERO CONTENT */
 .hero-content {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
   color: #fff;
 }
 
