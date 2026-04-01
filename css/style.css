@@ -396,7 +396,15 @@ button {
 }
 
 /* ================= RESPONSIVE ================= */
-@media (max-width: 992px) {
+
+@media (max-width: 1400px){
+  .nav-menu li a {
+  
+  margin-right: 15px;
+}
+
+}
+@media (max-width: 1200px){
   .nav-menu {
     position: absolute;
     top: 80px;
@@ -421,7 +429,14 @@ button {
     transform: translateY(0);
     pointer-events: auto;
   }
+}
 
+@media (max-width: 992px) {
+  
+  .nav-menu li a {
+  
+  margin-right: 0 !important;
+}
   .about-section {
     padding: 60px 0;
   }
